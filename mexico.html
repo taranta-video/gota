@@ -1,0 +1,63 @@
+<head>
+    <!-- Loads <model-viewer> for modern browsers!!!: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+
+<div class="pages">
+    <div data-page="about" class="page no-toolbar no-navbar">
+        <div class="page-content">
+
+            <div class="navbarpages navbarpagesbg">
+                <div class="navbar_left">
+                    <div class="logo_text">
+                        <a href="index.html"><img src="images/back.png"></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div id="pages_maincontent">
+
+                <h2 class="page_title">Año nuevo en México</h2>
+
+                <!-- ======= GLTF viewer ======= -->
+                <section id="contact" class="contact">
+                    <div class="container">
+
+                        <div id="card">
+                            <!-- All you need to put beautiful, interactive 3D content on your site: -->
+                            <model-viewer src="models/gotatubo.gltf" ios-src="models/asiento.usdz" poster="images/mexico.jpg" alt="CHINA" environment-image="images/afuera.hdr" shadow-intensity="1"   camera-controls autoplay interaction-prompt="auto" ar magic-leap>
+
+                                <button slot="ar-button" class="button-43">
+                            <img src="images/clic.png">
+                          </button>
+                            </model-viewer>
+                        </div>
+                    </div>
+                </section>
+                <!-- End GLTF viewer -->
+
+
+                <div class="page_single layout_fullwidth_padding">
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
